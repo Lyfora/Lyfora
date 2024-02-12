@@ -1,9 +1,63 @@
-<mxfile host="app.diagrams.net" modified="2024-02-12T17:08:14.296Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" version="23.0.2" etag="bb0w7CKW2ZaaGf62nbEZ" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-12T17:19:29.948Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="AngFvyTwalQvcgcV5lhE" version="23.0.2" type="github">
   <diagram name="Page-1" id="-CgjbxnhVJMi9Z2cLusJ">
-    <mxGraphModel>
+    <mxGraphModel dx="1687" dy="868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Re6W1KWfEnvvgxOXEU2t-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Re6W1KWfEnvvgxOXEU2t-1" target="Re6W1KWfEnvvgxOXEU2t-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Re6W1KWfEnvvgxOXEU2t-1" value="Pembentukan &lt;i&gt;Dataset&lt;/i&gt; dengan &lt;i&gt;Web Scrapping &lt;/i&gt;Instagram" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Re6W1KWfEnvvgxOXEU2t-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Re6W1KWfEnvvgxOXEU2t-2" target="Re6W1KWfEnvvgxOXEU2t-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Re6W1KWfEnvvgxOXEU2t-2" value="Fine-Tuning GPT untuk mendeteksi duplikasi konteks dari sebuah inputan" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Re6W1KWfEnvvgxOXEU2t-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Re6W1KWfEnvvgxOXEU2t-1" target="Re6W1KWfEnvvgxOXEU2t-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Re6W1KWfEnvvgxOXEU2t-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Re6W1KWfEnvvgxOXEU2t-4" target="Re6W1KWfEnvvgxOXEU2t-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Re6W1KWfEnvvgxOXEU2t-4" value="Pendeteksian duplikasi konteks text Instagram dengan Fine-Tuned GPT" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Re6W1KWfEnvvgxOXEU2t-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Re6W1KWfEnvvgxOXEU2t-7" target="Re6W1KWfEnvvgxOXEU2t-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Re6W1KWfEnvvgxOXEU2t-7" value="Validasi Data apakah teks mengarah ke Tindakan Kriminal" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Re6W1KWfEnvvgxOXEU2t-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Re6W1KWfEnvvgxOXEU2t-9" target="Re6W1KWfEnvvgxOXEU2t-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Re6W1KWfEnvvgxOXEU2t-9" value="Mendapatkan Lokasi Kejadian dari Isi Teks atau Tag Lokasi" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Re6W1KWfEnvvgxOXEU2t-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Re6W1KWfEnvvgxOXEU2t-11" target="Re6W1KWfEnvvgxOXEU2t-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Re6W1KWfEnvvgxOXEU2t-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Re6W1KWfEnvvgxOXEU2t-11" target="Re6W1KWfEnvvgxOXEU2t-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Re6W1KWfEnvvgxOXEU2t-11" value="Klasifikasi Kejahatan" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Re6W1KWfEnvvgxOXEU2t-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Re6W1KWfEnvvgxOXEU2t-13" target="Re6W1KWfEnvvgxOXEU2t-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Re6W1KWfEnvvgxOXEU2t-13" value="Training Model Forecating" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Re6W1KWfEnvvgxOXEU2t-17" value="Visualisasikan&lt;br&gt;Daerah dengan kategori Kriminal tertentu" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Re6W1KWfEnvvgxOXEU2t-21" value="Evaluasi Model Forecasting" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
